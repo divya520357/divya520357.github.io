@@ -1,9 +1,15 @@
+.calender{
+  width: -webkit-fill-available;
+  height: 90vh;
+}
+
+
 .heading{
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: relative;
   align-items: center;
-  height:20vh;
+  height:20vh; 
 }
 h2{
   font-size: 5rem;
@@ -12,7 +18,7 @@ h2{
 }
 .events{
   display: flex;
-  /* padding: 13vh; */
+  padding: 13vh;
   justify-content: center;
 }
 .container{
@@ -103,12 +109,12 @@ transform: scale(1.1);
 
 .section-change{
   position: absolute;
-  top: 109vh;
-  left: 50vw;
+  /* top: 109vh;
+  left: 50vw; */
   margin-right: -50vw;
   transform: translate(-50%, -50%);
   width: 50vw;
   border-radius: 5rem;
-  border: 0.2rem solid #FFFFFF; 
+  border: 0.2rem solid rgb(255, 255, 255); 
 }
 

@@ -1,7 +1,14 @@
-  .past-events{
+.past-heading{
+  color: black;
+  font-size: 5rem;
+  font-weight: normal;
+} 
+ 
+ .past-events{
     display: flex;
     /* padding: 13vh; */
     justify-content: center;
+    background-color: white;
   }
   .past-container{
     display: flex;
@@ -26,7 +33,7 @@
 
   
   .past-title {
-    color: white;
+    color: black;
     position: absolute;
     font-size: 2.5rem;
   }
@@ -40,7 +47,7 @@
 }
 figcaption{
   text-align: justify;
-  color: aliceblue;
+  color: black;
   font-size: small;
   padding: 3.5rem 0rem;
 

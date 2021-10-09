@@ -10,7 +10,7 @@
     width: 50vw;
 }
 
-img{
+.event-poster{
     height: 40rem;
     width: 40rem;
 }
@@ -29,6 +29,9 @@ h3{
     font-weight: normal;
 }
 
+.event-details{
+    padding-top: 2vh;
+}
 p {
     font-size: 1.5rem;
     color: white;
