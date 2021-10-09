@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Segoe UI', Serif;
+    background-color: #203A61;
+}
+
+header{
+    height: 10.1rem;
+    box-shadow:  0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    position: relative;
+    z-index: 30;
+}
+.logo{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    left: 0.8rem;
+    top: -3rem;
+
+}
+.logo img {
+    height: 100%;
+}
+.header-container{
+    max-width: 144rem;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    text-transform: uppercase;
+    padding: 2.4rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    transition: all 1s;
+   
+
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.button{
+    color: black;
+    background: white;
+    border-radius: 80px;
+    padding: 0.5rem 1.4rem;
+    text-decoration: none;
+    
+}
+
+
+
+

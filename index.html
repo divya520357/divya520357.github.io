@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="header.css" rel="stylesheet">
+  <link rel="stylesheet" href="./upcoming-events.css">
+  <link rel="stylesheet" href="./past-events.css">
+  <link rel="stylesheet" href="slides.css">
+  
+  <title>Events</title>
+</head>
+<body>    
+  <header>
+    <div class="header-container">
+      <div class="left-nav">
+        <div class="logo">
+          <img
+          src="assets/MLSAC Logo white.png" alt="MLSAC Logo" />
+        </div> 
+        </div>             
+        <div class="right-nav">
+          <nav>
+            <ul>
+              <li class= " header-buttons about">
+                <a href="#" class="button">About</a>
+              </li>
+              <li class= " header-buttons team">
+                <a href="#" class="button">Team</a>
+              </li>
+              <li class= " header-buttons contact-us">
+                <a href="#" class="button">Contact Us</a>
+              </li>
+            </ul>
+          </nav>                 
+        </div>
+    </div>
+  </header>    
+  
+  
+  <section class="upcoming-events events">
+    <div class="heading">
+      <h2>
+        Upcoming Events
+      </h2>
+    </div>  
+      <div class="container">
+        <a href="./hacktober-fest.html" >
+        <div class="card">
+          <h3 class="title">Hacktober Fest 2021</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="event-poster">
+              <img src="./assets/mlsc hackotber poster.png" class="recent-event 1"/>           
+          </div>
+        </div>
+        </a>
+      </div>
+   </section>  
+        <!-- <a href="#" >
+          <div class="card">
+            <h3 class="title">BVEST 2021</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="event-poster">
+              <img src="./assets/mlsc hackotber poster.png" class="recent-event 2"/>           
+            </div>
+          </div>
+        </a>   -->
+      
+
+    <div class="section-change"></div>
+
+    <section class="past-events events">
+      <div class="heading">
+        <h2>
+          Past Events
+        </h2>
+      </div>  
+      <div class="past-container">
+        <div class="arrows">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <div class="past-card">
+            <div class="past-event-poster">
+              <figure>
+               <img src="./assets/Emojify.jpeg" class="past-photo"/>  
+               <h3 class="past-title">Emojify</h3>  
+               <figcaption>
+                 1
+               </figcaption>
+              </figure> 
+             </div>
+          </div>
+
+          <div class="past-card">
+            <div class="past-event-poster">
+              <figure>
+               <img src="./assets/Sharks's Capital.jpeg" class="past-photo"/>  
+               <h3 class="past-title">Shark's Capital</h3>  
+               <figcaption>
+                2
+               </figcaption>
+              </figure> 
+            </div>
+          </div>
+
+          <div class="past-card">
+            <div class="past-event-poster">
+              <img src="./assets/Azure Pyday.jpeg" class="past-photo"/> 
+              <h3 class="past-title">Azure Pyday</h3>
+              <figcaption>
+                3
+              </figcaption>          
+            </div>
+          </div>
+
+          <div class="past-card">
+            <div class="past-event-poster">
+              <img src="./assets/Acees-A-Thon.jpeg" class="past-photo"/> 
+              <h3 class="past-title">Acces-A-Thon</h3>
+              <figcaption>
+                4
+              </figcaption>          
+            </div>
+          </div>
+
+          <div class="past-card">
+            <div class="past-event-poster">
+              <img src="./assets/mlsc hackotber poster.png" class="past-photo"/> 
+              <h3 class="past-title">Effigo</h3>
+              <figcaption>
+                5
+              </figcaption>          
+            </div>
+          </div>
+
+          <div class="past-card">
+            <div class="past-event-poster">
+              <img src="./assets/mlsc hackotber poster.png" class="past-photo"/> 
+              <h3 class="past-title">Effigo</h3>
+              <figcaption>
+                6
+              </figcaption>          
+            </div>
+          </div>
+
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+
+        </div>
+        
+        
+      </div>
+
+    </section>  
+    <script src="./past-events.js"></script>
+</body>
+</html>
