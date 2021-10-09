@@ -8,11 +8,15 @@
     display: flex;
     justify-content: center;
     width: 50vw;
+    align-items: center;
 }
 
 .event-poster{
-    height: 40rem;
-    width: 40rem;
+    /* padding-top: 1.6vh; */
+    height: auto;
+    width: 100%;
+    padding-right: 15rem;
+    /* padding-top: 5rem; */
 }
 
 .event-info{
@@ -31,24 +35,42 @@ h3{
 
 .event-details{
     padding-top: 2vh;
+    word-spacing: 0.5rem;
+    line-height: 2rem;
 }
-p {
+pre {
+    white-space: pre-wrap;
     font-size: 1.5rem;
     color: white;
     font-weight: lighter;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     
-.register{
-    display: flex;
-    justify-content: center;
-    border: 1px solid #f2f2f2;
-    background-color: #f2f2f2;
-    width: 12vw;
-    border-radius: 20px;
-    margin: 0 auto;
-    height: 2.7vh;
 }
 
-.cta{
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #f2f2f2;
+    background-color: #f2f2f2; */
+    width: 12vw;
+    margin: 0 auto;
+    height: 5vh;
     color: black;
+
+    text-decoration: none;
+    
 }
+span{
+    text-align: center;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 100px;
+    
+}
+

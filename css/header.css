@@ -22,29 +22,20 @@ header{
     position: relative;
     z-index: 30;
 }
-@media screen and (max-width: 500px) {
-    .right-nav a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    
-    .right-nav {
-      float: none;
-    }
-  }
 
 .logo{
+    display: flex;
     position: relative ;
-    width: 32.5vw;
+    width: auto;
     height: 21vh;
-    left: 0.8rem;
-    top: -4.261363636363637vh;
+    /* left: 0.8rem; */
+    /* top: -4.261363636363637vh; */
+    zoom: 0.75;
 
 }
-.logo img {
+/* .logo img {
     height: 100%;
-}
+} */
 .header-container{
     max-width: 144rem;
     margin: 0 auto;
@@ -59,7 +50,7 @@ nav ul{
 }
 nav ul li{
     text-transform: uppercase;
-    padding: 2.4rem;
+    padding: 2.5rem;
     letter-spacing: 0.1rem;
     font-size: 1.6rem;
  

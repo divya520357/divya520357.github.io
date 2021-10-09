@@ -1,6 +1,7 @@
 .calender{
   width: -webkit-fill-available;
-  height: 90vh;
+  height: 72vh;
+  /* zoom: 0.8; */
 }
 
 
@@ -8,8 +9,9 @@
   display: flex;
   justify-content: center;
   position: relative;
-  align-items: center;
-  height:20vh; 
+  align-items: flex-end;
+  height: 8vh;
+  padding: 9vh 0vw 5vh;
 }
 h2{
   font-size: 5rem;
@@ -17,15 +19,16 @@ h2{
   font-weight: normal;
 }
 .events{
-  display: flex;
-  padding: 13vh;
+  /* display: flex; */
+  /* padding: 13vh; */
   justify-content: center;
 }
 .container{
   display: flex;
   flex-direction: row;
-  padding: 5rem ;
-  margin: 13vh;
+  justify-content: center;
+  padding: 3rem 0rem 9rem ;
+  /* margin: 13vh; */
 }
 .card {
   display: flex;
